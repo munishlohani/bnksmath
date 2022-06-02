@@ -790,9 +790,6 @@ background: radial-gradient(#eeaeca, #94bbe9);
     transform: translateX(-50%);
     transition: 0.5s;
 }
-.mobile-events {
-    display: none;
-}
 @media(max-width: 547px){
     .msg-container{
         width: 86%;
@@ -804,16 +801,12 @@ background: radial-gradient(#eeaeca, #94bbe9);
         overflow: hidden;
         
     }
-    .controller {
-        display: none;
-    }
     #slider{
         /* width: 600px; */
         display: inline-flex;
         transition: 0.5s;
         overflow: hidden;
-        display: none;
-      
+   
     }
     .msg-col{
         /* flex-basis:80%; */
@@ -822,7 +815,7 @@ background: radial-gradient(#eeaeca, #94bbe9);
         overflow: hidden;
         margin:0;
         padding-left:20vw;
-        
+        display: n;
         
     }
     .msg-col h1 {
@@ -831,16 +824,6 @@ background: radial-gradient(#eeaeca, #94bbe9);
     }
     .msg-col p {
         font-size: ;
-    }
-    .mobile-events{
-       
-        overflow: hidden;
-        margin: 0;
-        padding: 0;
-    }
-    .mobile-events h2 {
-        display: inline-block;
-
     }
 } 
 /*--------notice----------*/
