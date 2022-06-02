@@ -1,0 +1,140 @@
+<html>
+    <head>
+        <meta name="viewport" content=" with=device-width, initial-scale=1.0">
+        <title>Math Club| UPCOMING EVENT</title>
+        
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" href="images/math_logo-removebg-preview.png">
+    </head>
+    <body>
+        <section class="upcoming">
+            <nav>
+            
+                <a href="index.html"><img src="images/math_logo-removebg-preview.png"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="math-league.html">MATH LEAGUE</a></li>
+                        <li><a href="gallery.html">GALLERY</a></li>
+                        <li><a href="upcoming.html">UPCOMING EVENTS</a></li>
+                        <li><a href="upcoming_dark.html" id ="ion-icon"><img src="images/moon.png" id ="ion-icon"></a></li>
+                        
+                    </ul>
+                    
+                </div>
+                
+                <i class="fa fa-bars" onclick="showMenu()"> </i>
+                
+            </nav>   
+            <div class="sidebar">
+            <div class="social-links">
+        
+                    <a href="https://www.facebook.com/" target="_blank"> <i class="fa fa-facebook"></i></a>
+                    
+                    <a href="https://www.instagram.com/mathclub_bnks/" target="_blank"><i class="fa fa-instagram"></i></a>
+                    <a id="gm" href="mailto:4000emathclub@gmail.com"><i class="fa fa-envelope"></i></a>
+                
+                </div>
+
+            </div>
+            
+            <div class="msg-container">
+                    <div id="slider">
+                        <div class="msg-col">
+                            <h1>Math <br>Quiz</h1>
+                            <p>This is the first touch and our grand opening for the events which are on the queue being organized by the most popular club of BNKS “Math Club” for this year. This math quiz, an exciting and awesome event will be a great way to help the BNKS students to sharpen their problem solving skills. As per the plan we have decided that this competition will be held on 25th to 27th June for the students of grades 5 to 10. So seize the occasion and showcase your potentiality!!! </p>
+                        </div>
+                        <div class="msg-col">
+                            <h1>Math week</h1>
+                            <p>As a second episode of our queue of events, we have Math week which a week-long event full of excitement and enthusiasm. It is an event where students with various mathematical ideas, problem solving approaches and team work, co-ordination will showcase their talents and win prizes in different events like Calculatia, Chess, Puzzles and Riddles etc. We have scheduled this competition to be held on 10th to 16th July for the students from grades 5 to A-levels/ +2 of BNKS. So get ready to experience a week long drive deep in mathematics.</p>
+                        </div>
+                        <div class="msg-col">
+                            <h3>BNKS Math League 2022</h3>
+                            <p>A grand event full of enthusiastic and intellect organizers and participants from all over the country sharing their math experiences and many more experiences and showcasing their problem-solving abilities through skill-based mathematical challenges highly relatable with our daily lives will be in the limelight…</p>
+                            <a href="math-league.html">Learn More</a>
+                        </div>
+                        <div class="msg-col">
+                            <h3>Project Work and Presentation of Mathematics </h3>
+                            <p>As another chapter of our event list, we have a unique and fascinating event which requires technical and knowledge related to different topics of mathematics where enthusiasts will work on project in a team and they will pitch/present their project ideas which will be sui generis. This event is scheduled for 17th December for AS/A Level and 10 +2 (Post SEE) students of BNKS. Mathematics is a hard thing to love but this event will make sure we love it. So Keep brainstorming for your project ideas!!!</p>
+                        </div>
+                        <div class="msg-col">
+                            <h1>Math Tour</h1>
+                            <p>With the theme of “Giving Back To the Society”, this event is with the purpose of encouraging each respective schools where we visit to establish a Math club. Maths is a diverse subject and it leads to a more innovative pathway so establishment of math club in each educational institution is important in our point of view. Paving a pathway to a more beautiful and fun learning of this subject along with different activities shall be fulfilled by this event being organized by Math Club. </p>
+                        </div>
+                    </div>
+            </div>
+            <div class="controller">
+                <div id="line1"></div>
+                <div id="line2"></div>
+                <div id="line3"></div>
+                <div id="line4"></div>
+                <div id="line5"></div>
+                <div id="active"></div>
+            </div>
+                
+        </section>
+        <script>
+            var slider= document.getElementById('slider');
+            var active= document.getElementById('active');
+            var line1= document.getElementById('line1');
+            var line2= document.getElementById('line2');
+            var line3= document.getElementById('line3');
+            var line4= document.getElementById('line4');
+            var line5= document.getElementById('line5');
+            
+            line1.onclick = function(){
+                slider.style.transform = 'translateX(0)';
+                active.style.top='0px';         
+            }
+            line2.onclick = function(){
+                slider.style.transform = 'translateX(-20%)';
+                active.style.top='100px';    
+            }
+            line3.onclick = function(){
+                slider.style.transform = 'translateX(-40%)';
+                active.style.top='200px';    
+            }
+            line4.onclick = function(){
+                slider.style.transform = 'translateX(-60%)';
+                active.style.top='300px';    
+            }
+            line5.onclick = function(){
+                slider.style.transform = 'translateX(-80%)';
+                active.style.top='400px';    
+            }
+            
+        </script>
+    
+            
+        
+        
+        
+        
+    
+        
+                                        <!--------JavaScript forToggle Menu------->
+                                        <script>
+                                        var navLinks = document.getElementById("navLinks");
+                                                                                        function showMenu(){
+                                                                                        navLinks.style.right= "0";
+                                                                                        }
+                                                                                        function hideMenu(){
+                                                                                        navLinks.style.right="-200px";
+                                                                                        }
+                                                                                        
+                                        </script>
+
+
+<div class="mobile-events">
+<h2>Math <br>Quiz</h2>
+<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Facilis consectetur repudiandae quis accusantium corporis commodi quo explicabo illum dolore ea?</p>
+
+</div>
+    </body> 
+</html>

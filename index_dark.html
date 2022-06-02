@@ -1,0 +1,182 @@
+<html>
+
+<head>
+    <meta name="viewport" content=" with=device-width, initial-scale=1.0">
+    <title>Math Club| HOME</title>
+    <link rel="stylesheet" href="stylenight.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" href="images/math_logo-removebg-preview.png">
+</head>
+
+<body>
+
+    <!-- pop up -->
+
+    <body>
+        <div class="popup-screen">
+            <div class="popup-box">
+
+                <h2 style="color: burlywood;">Notice</h2>
+                <p> WELCOME TO THE OFFICIAL WEB PAGE OF BNKS MATH CLUB</p>
+                <a class="close" href="#" class="btn">close</a>
+            </div>
+        </div>
+
+
+        <script type="text/javascript">
+            const popupScreen = document.querySelector(".popup-screen");
+            const popupBox = document.querySelector(".popup-box");
+            const closeBtn = document.querySelector(".close");
+
+            window.addEventListener("load", () => {
+                setTimeout(() => {
+                    popupScreen.classList.add("active");
+                }, 500); //Popup the screen in 02 seconds after the page is loaded.
+            });
+
+            closeBtn.addEventListener("click", () => {
+                popupScreen.classList.remove("active"); //Close the popup screen on click the close button.
+
+            });
+
+
+        </script>
+        <section class="header">
+            <nav>
+                <a href="index_dark.html"><img src="images/math_logo-removebg-preview.png"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index_dark.html">HOME</a></li>
+                        <li><a href="about_dark.html">ABOUT</a></li>
+                        <li><a href="math-league-dark.html">MATH LEAGUE</a></li>
+                        <li><a href="gallery_dark.html">GALLERY</a></li>
+                        <li><a href="upcoming_dark.html">UPCOMING EVENTS</a></li>
+                        <li><a href="index.html" id="ion-icon"><img src="images/sun.png" id="ion-icon"></a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"> </i>
+            </nav>
+            <div class="text-boxrati">
+                <h2>BNKS</h2>
+                <h1>MATH CLUB</h1>
+                <P>The first club website of Budhanilkantha School.<br> </P>
+                <a href="https://www.facebook.com/Math-Club-107487675313449/" class="hero-btn" target="_blank">Know More</a>
+            </div>
+
+        </section>
+        <!-----Co-ordinators of math club------>
+        <section class="coordinator">
+            <h1>Co-ordinators Of Math Club</h1>
+            <p>Presenting the three co-ordinators of Math club</p>
+            <div class="row">
+                <div class="coordinator-col">
+                    <img src="images/hsp.png">
+                    <div class="layer">
+                        <h3>Hari Sharan Pandit</h3>
+                    </div>
+                </div>
+
+
+                <div class="coordinator-col">
+                    <img src="images/mandal.png">
+                    <div class="layer">
+                        <h3>Ram Swarth Mandal</h3>
+                    </div>
+                </div>
+
+                <div class="coordinator-col">
+                    <img src="images/gmc.png">
+                    <div class="layer">
+                        <h3>Ganesh Man Chaudhary</h3>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <!------testimonials------->
+
+
+        <section class="testimonials">
+            <h1>What Our Teachers Say</h1>
+            <p>Teachers view on Math Club</p>
+            <div class="row">
+                <div class="testimonial-col">
+                    <img src="images/malik.png">
+                    <div>
+                        <h3>Birendra Mallik</h3>
+                        <p>Math club is one of the most famous clubs in Budhanilakantha school history consisting of
+                            hard-working students. It's really a great scene to see students working hard and achieving
+                            something that they really deserve.</p>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                </div>
+                <div class="testimonial-col">
+                    <img src="images/akc.png">
+                    <div>
+                        <h3>Atiram Kc</h3>
+                        <p>Math club is one of the most popular clubs in Budhanilakantha school history consisting of
+                            hard-working students. It's really a great scene to see students working hard and achieving
+                            something that they really deserve.</p>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o"></i>
+                    </div>
+                </div>
+                <div class="testimonial-col">
+                    <img src="images/ta.png">
+                    <div>
+                        <h3>Tulshi Adhikari</h3>
+                        <p>Math club is one of the most renowned clubs in Budhanilakantha school history consisting of
+                            hard-working students. It's really a great scene to see students working hard and achieving
+                            something that they really deserve.</p>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!------call to action--------->
+        <section class="cta">
+            <h1>Want to participate in MATH LEAGUE (National Competition) ?</h1>
+            <a href="math-league-dark.html" class="hero-btn">CONTACT US</a>
+        </section>
+        <!-----Footer-------->
+        <section class="footer">
+            <h4>About Us</h4>
+            <p>&copy; MATH CLUB 2022<br> FOLLOW US ON:</p>
+            <div class="icon">
+                <a href="https://www.facebook.com/Math-Club-107487675313449/" target="_blank"> <i class="fa fa-facebook"></i></a>
+
+                <a href="https://www.instagram.com/mathclub_bnks/" target="_blank"><i class="fa fa-instagram"></i></a>
+                <a id="gm" href="mailto:info@bnksmathclub.com"><i class="fa fa-envelope"></i></a>
+
+            </div>
+            <p>Made with lots of <span class="fa fa-heart heart-beat"></span> by the Members of Math Club</p>
+        </section>
+
+        <!--------JavaScript forToggle Menu------->
+        <script>
+            var navLinks = document.getElementById("navLinks");
+            function showMenu() {
+                navLinks.style.right = "0";
+            }
+            function hideMenu() {
+                navLinks.style.right = "-200px";
+            }
+
+        </script>
+    </body>
+
+</html>

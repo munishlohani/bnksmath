@@ -1,0 +1,75 @@
+<html>
+ <head>
+  <meta name="viewport" content=" with=device-width, initial-scale=1.0">
+   <title>Math Club| GALLERY</title>
+   <link rel="stylesheet" href="stylenight.css">
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" href="images/math_logo-removebg-preview.png">
+ </head>
+    <body>
+   <section class="gallery-header">
+       <nav>
+           <a href="index_dark.html"><img src="images/math_logo-removebg-preview.png"></a>
+           <div class="nav-links" id="navLinks">
+               <i class="fa fa-times" onclick="hideMenu()"></i>
+               <ul >
+                   <li ><a href="index_dark.html">HOME</a></li>
+                   <li><a href="about_dark.html">ABOUT</a></li>
+                   <li><a href="math-league-dark.html">MATH LEAGUE</a></li>
+                   <li><a href="gallery_dark.html">GALLERY</a></li>
+                   <li><a href="upcoming_dark.html">UPCOMING EVENTS</a></li>
+                   <li><a href="gallery.html" id ="ion-icon"><img src="images/sun.png" id ="ion-icon"></a></li>
+               </ul>
+           </div>
+           <i class="fa fa-bars" onclick="showMenu()"> </i>
+       </nav>   
+       <div class="info">
+           <h1>This is <span>Gallery</span></h1>
+           <p><strong>IN ASSOCIATION WITH PHOTOGRAPHY CLUB.</strong></p>
+           <a href="">All Photos</a>
+       </div>
+       <div class="img-box">
+       <img src="images/pattern - Copy.png" class="back-img">
+       <img src="images/IMG_1482-removebg-preview.png" class="main-img">
+       </div>
+       
+       
+   </section>
+     <!----all picture------>
+     <section class="gallery-photo">
+     <h1>COMING SOON MATH LEAGUE 2022</h1>
+     </br>
+     <a href="" target="_blank" class="hero-btn red-btn">MORE PHOTOS</a>
+     </section>
+     
+     
+     <!-----Footer-------->
+    <!-----Footer-------->
+    <section class="footer">
+    <h4>About Us</h4>
+    <p>&copy; MATH CLUB 2022<br> FOLLOW US ON:</p>
+        <div class="icon">
+            <a href="https://www.facebook.com/Math-Club-107487675313449/" target="_blank"> <i class="fa fa-facebook"></i></a>
+    
+            <a href="https://www.instagram.com/mathclub_bnks/" target="_blank"><i class="fa fa-instagram"></i></a>
+            <a id="gm" href="mailto:4000emathclub@gmail.com"><i class="fa fa-envelope"></i></a>
+    
+        </div>
+        <p>Made with lots of <span class="fa fa-heart heart-beat"></span> by the Members of Math Club</p>
+    </section>
+    
+    <!--------JavaScript forToggle Menu------->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+
+    </script>
+ </body> 
+</html>
