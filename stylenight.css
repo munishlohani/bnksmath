@@ -1305,10 +1305,9 @@ text-decoration: none;
 }
 .popup-box a {
     text-decoration: none;
-    background: linear-gradient(to right, #cb9b51 20%, #f6e27a 45%, #f6f2c0 50%, #cb9b51 100%);
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-        text-shadow: none;
+    color: red;
+    font-weight: 600;
+    
 }
 
 .close {
