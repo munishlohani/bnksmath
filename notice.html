@@ -1,0 +1,98 @@
+<html>
+ <head>
+  <meta name="viewport" content=" with=device-width, initial-scale=1.0">
+   <title>math club| NOTICE</title>
+   <link rel="stylesheet" href="style.css">
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+<body>
+     
+   <section class="notice-header">
+       <nav>
+           <a href="index.html"><img src="images/logo.png"></a>
+           <div class="nav-links" id="navLinks">
+               <i class="fa fa-times" onclick="hideMenu()"></i>
+               <ul>
+                   <li><a href="index.html">HOME</a></li>
+                   <li><a href="about.html">ABOUT</a></li>
+                   <li><a href="math%20league.html">MATH LEAGUE</a></li>
+                   <li><a href="gallery.html">GALLERY</a></li>
+                   <li><a href="upcoming.html">UPCOMING EVENTS</a></li>
+                   <li><a href="notice.html">NOTICE</a></li>
+               </ul>
+           </div>
+           <i class="fa fa-bars" onclick="showMenu()"> </i>
+       </nav>   
+       
+       <div class="notice-box">
+           <span>F</span>
+           <span>R</span>
+           <span>E</span>
+           <span>S</span>
+           <span>H</span>
+           <span></span>
+           <span>N</span>
+           <span>O</span>
+           <span>T</span>
+           <span>I</span>
+           <span>C</span>
+           <span>E</span>
+           </div>
+    
+               
+       
+         <div class="cold">      
+       <button type="submit" class= "bts" onclick="openPopup()">For Latest Notice</button>
+       </div>
+           </section>
+           <div class="popup" id="popup">
+               <h2>Math Quiz</h2>
+               <p>Your details has been successfully downloadedWhether you’re a high school student or a freshman at Harvard, your teachers will definitely give you numerous writing tasks. If the assignment involves short essay format, you might feel happy at first. It seems like a simple task, doesn’t it? An hour or two and that’s it. But the truth is, short essay writing can be way more complicated than long paper assignments.<br>
+
+Learning how to write a short essay is important because it will help express one’s thoughts succinctly and clearly. In real life, including in class or when performing job functions, few of us have an option of waxing poetic. Knowing how to talk shortly and directly, both on paper and orally, is essential, just as replying to a prompt fully in as few words as possible. This way, you’ll become a sharp communicator, which is an essential skill in every profession. So, how to start a short essay?<br>
+</p> 
+               <button type="button" onclick="closePopup()">CONTINUE</button>
+           </div>
+       
+     <!-------java script------------>
+     <script>
+         let popup = document.getElementById("popup");
+         
+         function openPopup(){
+             popup.classList.add("open-popup");
+         }
+           function closePopup(){
+               popup.classList.remove("open-popup");
+           }
+     </script>
+     
+       
+   
+     <!-----Footer-------->
+     <section class="footer">
+         <h4>About Us</h4>
+         <p>म त लाहुरे सँग बिहे गर्छु | Movie Scene - Nai Nabhannu La 5<br> | Anubhav Regmi, Sedrina Sharma</p>
+         <div class="icon">
+             <a href="https://www.facebook.com/" target="_blank"> <i class="fa fa-facebook"></i></a>
+             
+             <a href="https://www.instagram.com/" target="_blank"><i class="fa fa-instagram"></i></a>
+             
+         </div>
+         <p>Made with lots of <i class="fa fa-heart-o"></i> by the members of math club</p>
+     </section>
+     
+                                      <!--------JavaScript forToggle Menu------->
+                                      <script>
+                                      var navLinks = document.getElementById("navLinks");
+                                                                                       function showMenu(){
+                                                                                       navLinks.style.right= "0";
+                                                                                       }
+                                                                                       function hideMenu(){
+                                                                                       navLinks.style.right="-200px";
+                                                                                       }
+                                                                                       
+                                      </script>
+ </body> 
+</html>
