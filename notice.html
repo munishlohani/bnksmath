@@ -1,0 +1,133 @@
+<html>
+ <head>
+  <meta name="viewport" content=" with=device-width, initial-scale=1.0">
+   <title>math club| NOTICE</title>
+   <link rel="stylesheet" href="style.css">
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  </head>
+<body>
+     
+   <section class="notice-header">
+        <nav>
+            <a href="index.html"><img src="images/math_logo-removebg-preview.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="math league.html">MATH LEAGUE</a></li>
+                    <li><a href="gallery.html">GALLERY</a></li>
+                    <li><a href="upcoming.html">UPCOMING EVENTS</a></li>
+                        <li><a href="notice.html">RESULTS</a></li>
+                    <li><a href="#" id="ion-icon"><img src="images/moon.png" id="ion-icon"></a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"> </i>
+        </nav>
+       
+       <div class="notice-box">
+           <span>F</span>
+           <span>R</span>
+           <span>E</span>
+           <span>S</span>
+           <span>H</span>
+           <span></span>
+           <span>R</span>
+           <span>E</span>
+           <span>A</span>
+           <span>S</span>
+           <span>U</span>
+           <span>L</span>
+           <span>T</span>
+           </div>
+    
+               
+       
+         <div class="cold">      
+       
+       <a  onclick="openpoppup()" class="bts">For Latest Results</a></div>
+       <div class="poppup" id="poppup">
+        <h2>Text popup</h2>
+        <table class="result-table">
+            <thead>
+                <tr>
+                    <th>Rank</th>
+                    <th>Name</th>
+                    <th>House</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>Prashanna</td>
+                    <td>Senior Makalu</td>
+
+                </tr>
+                <tr class="active-row">
+                    <td>2</td>
+                    <td>ROhan</td>
+                    <td>Byas</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Munish</td>
+                    <td>Byas</td>
+                
+                </tr>
+                <tr class="active-row">
+                    <td>4</td>
+                    <td>unknown</td>
+                    <td>unknown</td>
+                
+                </tr>
+            </tbody>
+        </table>
+        <a id="btna" onclick="closepoppup()">Close</a>
+       </div>
+    
+      
+             
+       
+     <!-------java script------------>
+ 
+<script>
+    let poppup = document.getElementById("poppup");
+    function openpoppup(){
+        poppup.classList.add("open-poppup");}
+         function closepoppup(){
+            poppup.classList.remove("open-poppup");}
+
+    
+</script>
+       
+   
+     <!-----Footer-------->
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>&copy; MATH CLUB 2022<br> FOLLOW US ON:</p>
+        <div class="icon">
+            <a id="fb" href="https://www.facebook.com/" target="_blank"> <i class="fa fa-facebook"></i></a>
+    
+            <a id="insta" href="https://www.instagram.com/mathclub_bnks/" target="_blank"><i
+                    class="fa fa-instagram"></i></a>
+            <a id="gm" href="mailto:mathclub@gmail.com"><i class="fa fa-envelope"></i></a>
+    
+        </div>
+        <p>Made with lots of <span class="fa fa-heart heart-beat"></span> by the Members of Math Club</p>
+    </section>
+    
+    <!--------JavaScript forToggle Menu------->
+    <script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu() {
+            navLinks.style.right = "0";
+        }
+        function hideMenu() {
+            navLinks.style.right = "-200px";
+        }
+
+    </script>
+ </body> 
+</html>
