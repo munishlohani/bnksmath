@@ -11,7 +11,7 @@ body {
 .header{
     min-height: 100vh;
     width: 100%;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.805),rgb(0, 0, 0)), url(images/home.JPG);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.805),rgb(0, 0, 0)), url(images/IMG_8917.JPG);
     background-position: center;
     background-size: cover;
     position: relative;
@@ -1464,6 +1464,7 @@ text-decoration: none;
 .popup-box p {
     font-size: 1em;
     margin-bottom: 30px;
+    text-align: center;
 }
 .popup-box a {
     text-decoration: none;
