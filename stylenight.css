@@ -1509,4 +1509,25 @@ text-decoration: none;
     opacity: 1;
     background: orangered;
 }
+/*gallery*/
+.containerGallery {
+    width: 84%;
+    min-height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 50px 8%;
+
+}
+
+.galleryImg {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 30px;
+
+}
+
+.galleryImg img {
+    width: 100%;
+}
 
